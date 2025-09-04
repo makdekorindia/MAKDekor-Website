@@ -12,17 +12,14 @@ const Banner = () => {
 						<span className="text-white text-[15px] lg:w-fit lg:text-left w-full text-center">
 							Our Mission
 						</span>
-						<div className="font-semibold text-[50px] text-center text-white">
+						<div className="font-semibold text-[45px] text-center text-white">
 							We Care About Top Quality
 						</div>
-						<p className="mt-3 text-gray-200 max-w-[500px] lg:text-left text-center leading-7">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi commodi veniam
-							minima exercitationem harum dignissimos itaque, eum asperiores nemo distinctio
-							autem qui officiis id amet error ipsum blanditiis molestiae. Delectus?
+						<p className="mt-3 text-gray-200 max-w-[600px] lg:text-left text-center leading-7">
+							Why We are Known for Top Quality:<br></br>
+							Tailored Solutions: We don't believe in one-size-fits-all. Every design is customized to reflect our clients' lifestyle, values, and vision.<br></br>
+							Premium Materials & Craftsmanship: From luxurious finishes to sustainable choices, we work with vetted suppliers and skilled artisans to ensure durability and elegance.<br></br>
 						</p>
-						<button className="text-[#333] lg:mx-0 mx-auto rounded-full bg-white font-medium px-5 py-3 w-fit mt-5 z-50">
-							Explore Our Designs
-						</button>
 					</div>
 				</div>
 			</div>

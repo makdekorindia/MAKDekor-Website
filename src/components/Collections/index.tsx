@@ -1,29 +1,29 @@
-import classic from "../../assets/images/classic.jpg";
-import luxury from "../../assets/images/luxury.jpg";
-import surreal from "../../assets/images/surreal.jpg";
-import bright from "../../assets/images/bright.jpg";
+import Standard from "../../assets/images/Standard.jpg";
+import Median from "../../assets/images/Median.jpg";
+import Premia from "../../assets/images/Premia.png";
+import Bespoke from "../../assets/images/Bespoke.jpg";
 
 const Collections = () => {
 	const collectionItems = [
 		{
-			title: "Classic",
-			image: classic,
-			desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias omnis, ad modi expedita, velit aperiam dignissimos voluptas",
+			title: "Standard",
+			image: Standard,
+			desc: "The most affordable package offered. Targeting those who are looking for a minimum budget home decor solution",
 		},
 		{
-			title: "Luxury",
-			image: luxury,
-			desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi quibusdam sint culpa aperiam, maiores velit, delectus iure.",
+			title: "Median",
+			image: Median,
+			desc: "A Balance between affordability and quality. Best value for money offer of the lot.",
 		},
 		{
-			title: "Light , Bright",
-			image: bright,
-			desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi quibusdam sint culpa aperiam, maiores velit, delectus iure.",
+			title: "Premia",
+			image: Premia,
+			desc: "Highest package offered, top notch materials and designers are employed.",
 		},
 		{
-			title: "Surreal",
-			image: surreal,
-			desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi quibusdam sint culpa aperiam, maiores velit, delectus iure.",
+			title: "Bespoke",
+			image: Bespoke,
+			desc: "Custom interiors with Expert Design Theme based designs with Ultra Modern concepts & Premium material 3D modeling with walkthrough videos.",
 		},
 	];
 	return (
@@ -37,18 +37,11 @@ const Collections = () => {
 					<div className="w-full h-full absolute bg-black opacity-45 z-20 top-0 left-0"></div>
 					<div className="flex flex-col">
 						<div className="text-white font-semibold text-[20px] z-50">{item.title}</div>
-						<div className="text-white font-semibold text-[20px] z-50">Collection</div>
 					</div>
-					<div className="absolute bottom-6 z-50 flex flex-col gap-6">
+					<div className="absolute bottom-10 z-50 flex flex-col gap-6">
 						<p className="text-gray-100 leading-6 text-[14px] lg:text-left text-center">
 							{item.desc}
 						</p>
-						<a
-							href="#"
-							className="text-white font-light text-[17px]"
-						>
-							Read More
-						</a>
 					</div>
 				</div>
 			))}

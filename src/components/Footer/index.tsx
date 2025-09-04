@@ -1,12 +1,11 @@
 const Footer = () => {
 	return (
 		<div className="w-full bg-[#F7F7F7] pt-[120px] lg:px-[150px] px-8 pb-[56px] mt-[120px]">
-			<div className="w-full flex lg:flex-row flex-col lg:items-center justify-between lg:gap-0 gap-8">
-				<div className="flex flex-col gap-7">
-					<span className="font-semibold text-[#333] text-[28px]">Interior.</span>
-					<p className="font-medium text-[#333] text-[15px] max-w-[300px] leading-7">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptatibus earum
-						labore perspiciatis, a alias inventore.
+			<div className="w-full flex lg:flex-row flex-col lg:items-center justify-between lg:gap-0 gap-10">
+				<div className="flex flex-col gap-8">
+					<span className="font-semibold text-[#333] text-[28px]">Contact Us</span>
+					<p className="font-medium text-[#333] text-[15px] max-w-[350px] leading-7">
+						Email id:- makdekorindia@gmail.com<br></br>Mobile:- +91 9008036036 / +91 7207877099<br></br>Address:- #221 4th cross, Celebrity Paradise Layout, Electronic City Phase-1, Bangalore 560100
 					</p>
 				</div>
 				<div className="flex flex-col md:mb-0 mb-5">
@@ -27,7 +26,7 @@ const Footer = () => {
 						href="#"
 						className="text-[#333] font-medium text-[15px]"
 					>
-						Outdoor Solutions
+						Design Consultancy
 					</a>
 				</div>
 				<div className="flex flex-col md:mb-0 mb-5">
@@ -36,19 +35,25 @@ const Footer = () => {
 						href="#"
 						className="text-[#333] font-medium text-[15px] mb-4"
 					>
-						Classic
+						Standard
 					</a>
 					<a
 						href="#"
 						className="text-[#333] font-medium text-[15px] mb-4"
 					>
-						Luxury
+						Median
+					</a>
+					<a
+						href="#"
+						className="text-[#333] font-medium text-[15px] mb-4"
+					>
+						Premia
 					</a>
 					<a
 						href="#"
 						className="text-[#333] font-medium text-[15px]"
 					>
-						Surreal
+						Bespoke
 					</a>
 				</div>
 				<div className="flex flex-col md:mb-0 mb-5">
@@ -57,7 +62,7 @@ const Footer = () => {
 						href="#"
 						className="text-[#333] font-medium text-[15px] mb-4"
 					>
-						Facebook
+						Youtube
 					</a>
 					<a
 						href="#"

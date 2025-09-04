@@ -9,13 +9,8 @@ const Intro = () => {
 			</div>
 			<div className="flex flex-col gap-2">
 				<p className="text-gray-600 leading-7 max-w-[500px]">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ex nesciunt
-					molestias sit ad dolor ducimus est facere velit, eveniet consequuntur sapiente
-					aliquid in ipsa magnam dolorum. Veritatis, a deleniti?
+					At Mak Dekor, we redefine luxury through timeless design, meticulous craftsmanship, and bespoke solutions tailored to your lifestyle. Our mission is simple: to transform your space into a reflection of refined taste, functionality, and effortless elegance.
 				</p>
-				<button className="text-white rounded-full bg-[#333] font-medium outline-none px-5 py-3 w-fit mt-5 z-50">
-					Explore Our Designs
-				</button>
 			</div>
 		</div>
 	);

@@ -1,26 +1,21 @@
-import { BrushOutline, LeafOutline, RainyOutline, RibbonOutline } from "react-ionicons";
+import { BrushOutline, LeafOutline, RibbonOutline } from "react-ionicons";
 
 const Services = () => {
 	const services = [
 		{
 			title: "Modern Design",
 			icon: BrushOutline,
-			desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus quasi aliquam.",
-		},
-		{
-			title: "Outdoor Solutions",
-			icon: RainyOutline,
-			desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus quasi aliquam.",
+			desc: "We shall transform the spaces with flexibility to customers in interior design, furnishings, wide range of optional services on the basis of different price structure.",
 		},
 		{
 			title: "Environment Friendly",
 			icon: LeafOutline,
-			desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus quasi aliquam.",
+			desc: "Eco-friendly interiors blend nature and innovation, proving that sustainability doesn't mean sacrificing comfort or elegance. Making green choices today helps shape a better tomorrow.",
 		},
 		{
 			title: "Top Quality",
 			icon: RibbonOutline,
-			desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus quasi aliquam.",
+			desc: "It's our standard to maintain top quality from concept to completion, bringing precision, passion, and innovation to every project. Creating spaces that are as functional as they are breathtaking.",
 		},
 	];
 	return (
@@ -37,12 +32,6 @@ const Services = () => {
 					/>
 					<span className="font-semibold text-[20px]">{service.title}</span>
 					<p className="text-gray-600 leading-7 text-center max-w-[350px]">{service.desc}</p>
-					<a
-						href="#"
-						className="text-[#425e85]"
-					>
-						Read More
-					</a>
 				</div>
 			))}
 		</div>
